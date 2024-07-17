@@ -1,0 +1,182 @@
+/* Home.css */
+.home {
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 14px 20px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: gray;
+}
+
+.main-content {
+    background-size: cover; 
+    /* background-position: center; */
+    color: #333;
+    font-family: Arial, sans-serif;
+    width: 100vw; 
+    height: 80vh; 
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+}
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    flex: 0.4;
+}
+
+.main-image {
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+.schedule-details {
+    max-width: 70%;
+}
+
+.schedule-details h2 {
+    color: #d32f2f;
+}
+
+.schedule-details p {
+    font-size: 1.2em;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.schedule-link,
+.location-link {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 10px 20px;
+    color: white;
+    background-color: #d32f2f;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+.schedule-link:hover,
+.location-link:hover {
+    background-color: #b71c1c;
+}
+
+.vision-mission {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.vision-mission-text {
+    flex: 1;
+}
+
+.vision-mission h3 {
+    color: #d32f2f;
+}
+
+.vision-mission p {
+    font-size: 1em;
+}
+
+.vision-mission img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 10px;
+    flex: 1; 
+}
+
+.bible-ayat {
+    background-color: rgb(28, 28, 28);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.bible-ayat-text {
+    flex: 1;
+    text-align: center;
+    margin: 20px;
+}
+
+.bible-ayat h3 ,
+.bible-ayat p {
+    font-size: 1em;
+    color: #ffffff;
+    align-items: center;
+    align-content: center;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .main-image {
+        max-width: 30%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .schedule {
+        margin-left: 0;
+        /* width: 100%; */
+    }
+
+    .schedule-details {
+        max-width: 100%;
+    }
+
+    .vision-mission {
+        flex-direction: column;
+    }
+
+    .vision-mission img {
+        max-width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+

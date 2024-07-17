@@ -1,0 +1,29 @@
+/* Add your styles here */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.navbar .logo {
+    width: 50px;
+}
+
+.home {
+    background-size: cover;
+    padding: 2rem;
+}
+
+.schedule {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+}
+
+.vision-mission {
+    margin-top: 2rem;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+}
